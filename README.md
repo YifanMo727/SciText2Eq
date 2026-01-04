@@ -1,8 +1,11 @@
-# Evaluating Mathematical Reasoning Capabilities of LLMs Within Scientific Literature
-This repository contains the code and data supporting my master's thesis, which investigates the capabilities of large language models (LLMs) in generating mathematical equations from scientific text. 
+# Assessing LLMs for Explainable Equation Generation for Scientific Creativity
 
 ## Overview
-In this work, we introduce a novel framework that explores large language models (LLMs) for equation generation from scientific context. We leverage LLMs' mathematical reasoning abilities and scientific domain knowledge to infer missing equations directly from surrounding text in scientific literature. The framework casts equation generation as a contextual translation task and incorporates prompt engineering to guide model behavior. To evaluate output quality, we propose  an evaluation framework that combines standard text similarity metrics, structure-aware measures, and an LLM-as-a-Judge methodology. Experiments across multiple LLMs and metrics show that current models can generate syntactically plausible equations but often fall short on deep semantic alignment. Our analysis highlights the limitations of existing automatic metrics and introduces LLM-based judgment as a promising complementary approach for evaluating math reasoning tasks.
+This work investigates the ability of large language models (LLMs) to generate mathematical equations from scientific texts. 
+Prior work faces challenges in unstructured grounding, multi-equation dependency, and human-aligned evaluation.
+To this end, we construct a dataset of AI research papers, pairing contextual passages with ground-truth equations and variable descriptions. 
+We develop an explainable equation generation workflow and evaluate it across diverse open- and closed-source LLM backbones.
+We introduce an evaluation protocol combining automatic metrics, LLM-based rubrics, and human judgments to assess accuracy, explainability, and human-LLM alignment.
 
 ![Workflow](images/workflow.png)
 
