@@ -12,7 +12,6 @@ We introduce an evaluation protocol combining automatic metrics, LLM-based rubri
 ## Get Started
 ```
 # Clone the repository
-git clone https://github.com/imxiaoxiaohh/master_thesis_project.git
 
 cd math-equation-generation
 
